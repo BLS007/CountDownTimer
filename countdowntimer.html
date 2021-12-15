@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!-- Linking the countdowntimer.css page to apply styling effects. -->
+    <link rel="stylesheet" href="countdowntimer.css">
+    
+    <body>
+    
+        <!-- The header for the page content. -->
+        <h1>Please select a date to initiate the countdown:</h1>
+
+        <!-- Represents the calendar button. -->
+        <div class="clock-input">
+	       <input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+        </div>
+    
+        <!-- Represents the days, hours, minutes and seconds. -->
+        <div class="chrono">
+	       <div class="clock-column">
+		      <p class="clock-day clock-timer"></p>
+		      <p class="clock-label">Days</p>
+	       </div>
+
+	       <div class="clock-column">
+		      <p class="clock-hours clock-timer"></p>
+		      <p class="clock-label">Hours</p>
+	       </div>
+
+	       <div class="clock-column">
+		      <p class="clock-minutes clock-timer"></p>
+		      <p class="clock-label">Minutes</p>
+	       </div>
+
+	       <div class="clock-column">
+		      <p class="clock-seconds clock-timer"></p>
+		      <p class="clock-label">Seconds</p>
+	       </div>
+        </div>
+    
+        <!-- Linking the countdowntimer.js page to apply the overall functionality of the days, hours, minutes and seconds after the date has been established in the calendar button. -->
+        <script src="countdowntimer.js" charset="utf-8"></script>  
+    
+    </body>
+
+</html>
