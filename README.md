@@ -1,5 +1,5 @@
 # Countdown Timer
-## A simple countdown timer that displays the days, hours, minutes and seconds.
+## A single webpage with a countdown timer that displays the days, hours, minutes and seconds after selecting a future date.
 
 ### Home Page
 
